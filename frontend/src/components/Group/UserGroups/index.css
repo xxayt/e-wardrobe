@@ -1,0 +1,34 @@
+.user_group {
+    width: 100%;
+    min-width: fit-content;
+    text-align: left;
+    padding: 30px 50px 0px 50px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: left; */
+}
+.group_block {
+    height: auto;
+    width: 40%;
+    margin: 10px 30px;
+    border: 2px solid grey;
+}
+.group_block:hover {
+    background-color: rgba(0,0,0,0.1);
+    border: 2px solid black;
+}
+.group_name {
+    margin: 0;
+}
+.intro {
+    font: small;
+    color: grey;
+}
+
+.group_list {
+    margin-top: 15px;
+    padding-right: 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
