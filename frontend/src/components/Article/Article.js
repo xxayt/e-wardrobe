@@ -3,8 +3,6 @@ import React from "react";
 import "./Article.css";
 import { useNavigate, useParams } from "react-router-dom";
 import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';             // markdown 对表格/删除线/脚注等的支持
-import remarkMath from 'remark-math'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import AccountCircle from '@mui/icons-material/AccountCircle';
@@ -92,7 +90,7 @@ export default function ArticleDetail(props){
                 </h4>
             </div>
             <div className="Article_body">
-                <ReactMarkdown escapeHtml={false} remarkPlugins={[remarkGfm]}>
+                <ReactMarkdown escapeHtml={false}>
                     {md}
                 </ReactMarkdown>
             </div>
