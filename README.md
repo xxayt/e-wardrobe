@@ -1,3 +1,27 @@
+# 使用方法
+
+1. 将仓库clone到本地后（`git clone https://github.com/xxayt/e-wardrobe.git`），进入终端
+2. 进入 `frontend` 文件夹，安装 `npm`
+3. 运行前端
+4. 运行后端
+
+总之，打开第一个终端
+
+```python
+git clone https://github.com/xxayt/e-wardrobe.git
+cd .\frontend\
+npm i
+npm install react-markdown-editor-lite@1.3.3 --legacy-peer-deps
+npm start  # 运行前端
+```
+
+打开第二个终端
+
+```python
+cd .\backend\
+npm start  # 运行后端
+```
+
 ## ER图
 
 ![image-20221212222743774](readme.assets/image-20221212222743774.png)
